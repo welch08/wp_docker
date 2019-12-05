@@ -23,7 +23,7 @@ Set up a host name pointing at 127.0.0.1 in your /etc/hosts for the dev site.
 ####  Docker Commands:
 Start up with
 ```bash
-$ docker-compose up
+$ docker-compose up -d
 ```
 
 To Tear Down
@@ -33,7 +33,7 @@ $ docker-compose down --volumes
 
 To rebuild the containers:
 ```bash
-$docker-compose up --force-recreate --build
+$ docker-compose up --build -d
 ```
 
 To delete the db_data volume
