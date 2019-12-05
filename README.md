@@ -16,7 +16,9 @@ Docker Compose Install: https://docs.docker.com/compose/install/
 
 #### Hostname
 Set up a host name pointing at 127.0.0.1 in your /etc/hosts for the dev site.
+```bash
 127.0.0.1 example.loc
+```
 
 ####  Docker Commands:
 Start up with
