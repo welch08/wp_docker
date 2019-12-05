@@ -1,6 +1,6 @@
-## Developing WordPress sites with Docker :tw-1f447:
+## Developing WordPress sites with Docker :point_down:
 
-#### :tw-1f4c1: Project Structure:
+#### :file_folder: Project Structure:
 - app/ – The WordPress application files are in this directory.
 - bin/ – Useful command-line scripts
 - data/ – MySQL dump files go here.
@@ -10,7 +10,7 @@
 
 *Recommended add "data" folder to .gitignore*
 
-## :tw-1f4be: Docker 
+## :floppy_disk: Docker
 Docker Install: https://docs.docker.com/install/
 Docker Compose Install: https://docs.docker.com/compose/install/
 
@@ -41,10 +41,10 @@ $ docker-compose down -v
 
 After building the images you can go to http://example.loc (if you set up a hostname) or go to 127.0.0.1:80 and start work. Put WordPress in to app/ and the install process will start and create a database for you.
 
-## Installing WP
-![DB config](https://github.com/welch08/wp_docker/blob/master/db_settings.jpg "DB config")
+## :cd: Installing WP
+![DB config](https://raw.githubusercontent.com/welch08/wp_docker/master/db_settings.jpg "DB config")
 
-##  :tw-1f4da: PhpMyAdmin
+## :books: PhpMyAdmin
 Go to http://127.0.0.1:8080 (http://localhost:8080)
 **login: ** root
 **passowrd: **password
@@ -72,4 +72,4 @@ define('WP_DEBUG_LOG', (bool) ($ENV['WP_DEBUG'] ?? false));
 The environment variables we set in docker-compose.yml are used here.
 
 ------------
-# :tw-1f4bb: Successful Development! :tw-1f4bb:
+# Successful Development! :muscle:
