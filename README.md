@@ -72,4 +72,4 @@ define('WP_DEBUG_LOG', (bool) ($ENV['WP_DEBUG'] ?? false));
 The environment variables we set in docker-compose.yml are used here.
 
 ------------
-# :tw-1f4bb: Successful Development! :tw-1f4bb:
+# Successful Development! :muscle:
