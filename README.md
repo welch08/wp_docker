@@ -41,7 +41,7 @@ To delete the db_data volume
 $ docker-compose down -v
 ```
 
-After building the images you can go to http://example.loc (if you set up a hostname) or go to 127.0.0.1:80 and start work. Put WordPress in to app/ and the install process will start and create a database for you.
+After building the images you can go to http://example.loc (if you set up a hostname) or go to http://127.0.0.1:8000/ and start work. Put WordPress in to app/ and the install process will start and create a database for you.
 
 ## :cd: Installing WP
 ![DB config](https://raw.githubusercontent.com/welch08/wp_docker/master/db_settings.jpg "DB config")
